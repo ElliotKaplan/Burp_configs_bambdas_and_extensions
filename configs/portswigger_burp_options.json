@@ -617,7 +617,7 @@
                 "comment":"enable boxes",
                 "enabled":true,
                 "is_simple_match":false,
-                "rule_type":"request_header",
+                "rule_type":"response_body",
                 "string_match":"disabled=\"[^\"]*\""
             }
         ],

@@ -619,6 +619,14 @@
                 "is_simple_match":false,
                 "rule_type":"response_body",
                 "string_match":"disabled=\"[^\"]*\""
+            },
+            {
+                "comment":"enable boxes aspx/javascript",
+                "enabled":true,
+                "is_simple_match":false,
+                "rule_type":"response_body",
+                "string_match":"(\"disabled\"[;,]\s*)true",
+                "string_replace":"$1false"
             }
         ],
         "miscellaneous":{
